@@ -1,0 +1,31 @@
+
+
+.Titulo{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.Vehiculo{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+		background-color: lightskyblue;
+	border-radius: 200px;
+}
+
+.Persona{
+		margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: lightskyblue;
+	border-radius: 200px;
+}
+
+.Formulario1{
+			margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: red;
+	border-radius: 200px;
+}

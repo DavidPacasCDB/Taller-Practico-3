@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Taller mecanico "El fierro viejo" </title>
+	<script type="text/javascript" src="js/Tabla.js"></script>
+	<script type="text/javascript" src="js/placa.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<div class="Titulo">
+		<h1>Bienvenido al portal de registro</h1>
+		<h1>A continuación ingrese los datos del cliente a ingresar</h1>
+	</div>
+			<form name="formulario1" action="#" class="Formulario1">
+				<h3>Seleccione la marca de su auto y el modelo</h3>
+			<select class="seleccion" name="cosa" onchange="cambia()">
+				
+				<option value="0">Marque una opcion
+				<option value="1">Toyota
+				<option value="2">Hiunday
+				<option value="3">Honda
+				<option value="4">Nissan
+			</select>
+			<select class="seleccion" name="opt">
+				<option value="-">-
+			</select>
+		</form>
+
+	<div class="Vehiculo">
+		<h3>Año  <input type="text" name="año" class="Clienteaño" placeholder= "Año" id="año"><br></h3>
+		<h3>Color    <input type="text" name="color" class="color" placeholder= "Color" id="color"></h3>
+		<h3>Fallas    <input type="text" name="Fallas" class="fallas" placeholder= "Fallas" id="fallas"></h3>
+		<h3>Placa    <input type="text" name="	Placa" class="Placa" placeholder="Placa" id="placa"></h3>
+
+	</div>
+	<div class="Persona">
+		<form name="Formulario2"></form>
+			
+			<h3>Nombre completo   <input type="text" name="nombre" placeholder="Ingrese el nombre completo" id="nombre" value=""></h3>
+			<h3>Numero de DUIS  <input type="text" name="DUI" placeholder="Numero de DUI" id="DUI" value=""></h3>
+			<h3>Numero de NIT   <input type="text" name="NIT" placeholder="Numero de NIT" id="NIT" value=""></h3>
+			<input type="button" name="btnvalidar" id="validar" value="Validar" />
+
+	</div>
+	<div class="Tabla">
+		<table id="TablaUsuario">
+			<thead>
+				<tr>Año </tr>
+				<tr>Marca </tr>
+				<tr>Modelo </tr>
+				<tr>Color </tr>
+				<tr>Fallas </tr>
+				<tr>Placa </tr>
+			</thead>
+			<tbody id="contenido">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tbody>
+
+		</table>
+	</div>
+		
+</body>
+
+</html>
